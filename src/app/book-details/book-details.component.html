@@ -1,0 +1,11 @@
+<!-- new -->
+<div class=editBook> 
+  <span>{{item.title}}</span>
+  <span>Title: {{item.author}}</span>
+  <span>Date: {{item.date| date}}</span>
+  <div>
+    <button (click)="editFunc(item)"> edit</button>
+    <button (click)="deleteFunc(item)"> delete</button>
+  </div>
+  
+  </div>

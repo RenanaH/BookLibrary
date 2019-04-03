@@ -1,0 +1,6 @@
+<div>
+  <span>title:</span> <input class="tags-input"  [(ngModel)]="item.title">
+  <span>author:</span> <input class="tags-input" [(ngModel)]="item.author">
+  <span>date:</span> <input class="tags-input" type="date"  [(ngModel)]="item.date" >
+  <button (click)="saveButton(item)">save</button>
+</div>
